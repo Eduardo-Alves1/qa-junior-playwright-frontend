@@ -1,6 +1,8 @@
 # QA Junior Playwright Frontend
 
-Um guia simples e direto para você rodar e entender este projeto de testes E2E com Playwright.
+Teste Técnico para avaliar as habilidades de automação de testes E2E com Playwright.
+# Empresa
+TagPlus
 
 ## O que é este projeto?
 Este repositório contém uma suíte de testes end-to-end (E2E) usando Playwright para validar o fluxo de uma aplicação de exemplo (Sauce Demo). Os testes cobrem login, manipulação de produtos no carrinho e checkout.
@@ -95,4 +97,14 @@ playwright-report/index.html
 - Quer ver o navegador enquanto executa? Use `--headed`.
 - Quer testar outro navegador? Habilite os projetos `firefox` ou `webkit` no `playwright.config.js`.
 
-Qualquer dúvida, sugestão ou melhoria é bem-vinda. Bons testes!
+- Neste teste tentei mostrar um pouco das minhas habilidades de automação de testes E2E com Playwright. 
+- Foram cobertos os fluxos básicos de login, manipulação de produtos no carrinho e checkout. Podemos ainda 
+    adicionar mais testes, como validação de erros em campos obrigatórios, mas para ser objetivo segui a sugestão anunciadas: 
+    
+- Automatize os seguintes fluxos:
+## Login com sucesso e com dados incorretos
+    ○ Validação: sistema logado com sucesso e mensagem com erro
+## Remover produtos de dentro do carrinho
+    ○ Validação: Quantidade de itens que sobrou no carrinho
+## Finalizar uma compra com 2 ou mais produtos
+    ○ Validação: mensagem Thank you for your order!
